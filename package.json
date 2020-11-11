@@ -1,0 +1,21 @@
+{
+    "name": "starterkit",
+    "version": "1.0.0",
+    "description": "starter kit",
+    "author": "Max, Inc.",
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/makhlab"
+    },
+    "scripts": {
+        "bundle": "webpack  --config webpack.config.js",
+        "compile:test": "run-s compile test",
+        "clean": "rimraf ./dist",
+        "test": "jest --verbose "
+    },
+    "devDependencies": {
+        "webpack": "^5.3.2",
+        "webpack-cli": "^4.1.0"
+    }
+}

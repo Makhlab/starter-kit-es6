@@ -1,0 +1,7 @@
+{
+    "name": "my-project",
+    "jest": {
+      "setupFilesAfterEnv": ["jest-expect-message"],
+      "verbose": true
+    }
+}
