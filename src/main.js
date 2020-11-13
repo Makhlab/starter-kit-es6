@@ -1,4 +1,5 @@
 import {initYouTube} from './youtube.js';
+import {init}
 
 export const init = () => {
 
